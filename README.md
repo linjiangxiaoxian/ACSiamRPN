@@ -67,7 +67,7 @@ Download datasets and put them into `testing_dataset` directory. Jsons of common
 
 ### Test tracker
 ```bash
-cd experiments/siamrpn_r50_l234_dwxcorr
+cd experiments/siamrpn_alex_dwxcorr
 python -u ../../tools/test.py 	\
 	--snapshot model.pth 	\ # model path
 	--dataset VOT2018 	\ # dataset name
@@ -76,7 +76,7 @@ python -u ../../tools/test.py 	\
 The testing results will in the current directory(results/dataset/model_name/)
 
 ### Eval tracker
-assume still in experiments/siamrpn_r50_l234_dwxcorr_8gpu
+assume still in experiments/siamrpn_alex_dwxcorr_16gpu
 ``` bash
 python ../../tools/eval.py 	 \
 	--tracker_path ./results \ # result path
