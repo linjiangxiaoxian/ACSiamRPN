@@ -5,8 +5,9 @@ Our main contributions to original PySOT are GC block and CiSK, their codes can 
 - [Xiaofei Qin]
 - [Yipeng Zhang](https://github.com/linjiangxiaoxian)
 
-# The following is the original text of pysot's readme
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***
+*The following is the original text of pysot's readme*
+***
 
 # PySOT
 
