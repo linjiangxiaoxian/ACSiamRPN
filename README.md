@@ -105,6 +105,7 @@ If you meet problem, try searching our GitHub issues first. We intend the issues
 - [Fangyi Zhang](https://github.com/StrangerZhang)
 - [Qiang Wang](http://www.robots.ox.ac.uk/~qwang/)
 - [Bo Li](http://bo-li.info/)
+- [Yipeng Zhang](https://github.com/linjiangxiaoxian)
 
 ## License
 
