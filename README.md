@@ -1,4 +1,13 @@
+# ACSiamRPN
 Our work is based on the open source code library pysot, so the readme document has not been changed, and the related operations of the environment configuration are exactly the same. Thanks to the contributors of pysot.
+Our main contributions to original PySOT are GC block and CiSK, their codes can be find at ACSiamRPN/pysot/models. The main code of ACSiamRPN is model_builder.py at ACSiamRPN/pysot/models, in which it used GC block and CiSK. At line 92, GC block is introduced; at line 102, RPN head module is introduced. RPN head contains CiSK blocks, and its code is given in SKNet2 folder.
+## Contributors
+- [Xiaofei Qin]
+- [Yipeng Zhang](https://github.com/linjiangxiaoxian)
+
+# The following is the original text of pysot's readme
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # PySOT
 
 **PySOT** is a software system designed by SenseTime Video Intelligence Research team. It implements state-of-the-art single object tracking algorithms, including [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html) and [SiamMask](https://arxiv.org/abs/1812.05050). It is written in Python and powered by the [PyTorch](https://pytorch.org) deep learning framework. This project also contains a Python port of toolkit for evaluating trackers.
@@ -105,7 +114,6 @@ If you meet problem, try searching our GitHub issues first. We intend the issues
 - [Fangyi Zhang](https://github.com/StrangerZhang)
 - [Qiang Wang](http://www.robots.ox.ac.uk/~qwang/)
 - [Bo Li](http://bo-li.info/)
-- [Yipeng Zhang](https://github.com/linjiangxiaoxian)
 
 ## License
 
